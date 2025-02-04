@@ -1,0 +1,6 @@
+1. Web browsers function by using languages like HTML, Javascript, and CSS to access and display information on the web. They translate and render layouts of text, graphics, and other content.
+2. The DOM is an interface to a document that stipulates how a document is accessed and changed in a logical manner. It represents documents as nodes in a tree structure to languages like Javascript can make changes. It creates node trees so that browsers know how content is arranged and ordered.
+3. HTML, XML, and XHTML are different but same. HTML functions as the foundational structure for a web page, XML describes document nodes, and XHTML is a mix between the two that corrects HTML lenient behaviors to help fix problems with mobile devices.
+4. Document type, root element, head element, body element.
+5. the index.html is the master html page that a website looks for first, and should be placed in the root folder or any other sub-directory folder, the placement should be specific.
+6. No spaces, or no funky characters, use lower case unless writing with multiple words, you can use camel casing. Don't start file names with numbers.
