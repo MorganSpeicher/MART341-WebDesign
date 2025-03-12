@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description=" content="Blog Media Page">
+        <meta name="Author" conent="Morgan Speicher">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog Media Page</title>
+        <style>
+            body {background-color: rgb(246, 239, 227)}
+            h1 {color: rgb(0, 0, 0)}
+            h2 {color: rgb(198, 92, 104)}
+            .inlinestyle {color: rgb(115, 77, 77)}
+            .centered {text-align: center;}
+            .image {
+            width: 28%;
+            float: left;
+            margin: 1.66%;
+            padding: 15px;
+            text-align: center;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+        }
+          </style>
+    </head>
+    <body>
+        <div id="header" class="centered">
+            <h1>Media Page</h1>
+            <hr />
+            <p>
+                <a href="index.html">Return to the blog page!</a>
+            </p>
+        </div>
+        <hr />
+
+        <div id="gallery-body" class="centered">
+            <h2>Week of Feb. 10<sup>th</sup>, 2024</h2>
+        </div>
+
+        <div id="text-under-image1" class="image">
+            <img src="./images/SalmonOptimized.jpg" alt="Salmon recipe dish with broccoli over rice" title="Salmon Dish" style="margin-right: 20px;" width="15%"/>
+            <p>
+                <span class="inlinestyle">Salmon with Brocoli over Rice</span>
+            </p>
+        </div>
+
+        <div id="text-under-image2" class="image">
+            <img src="./images/ShepardsPieOptimized.jpg" style="margin-right: 20px;" alt="Simple shepards Pie" title="Shepards Pie Dish" width="15%"/>
+            <p>
+                <span class="inlinestyle">Shepards Pie</span>
+            </p>
+        </div>
+
+        <div id="text-under-image3" class="image">
+            <img src="./images/AsianPorkOptimized.jpg" style="margin-right: 20px;" alt="Asian Pork dish over rice with pineapple" title="Asian Pork Dish" width="15%"/>
+            <p>
+                <span class="inlinestyle">Asain Pork over Rice</span>
+            </p>
+        </div>
+        <hr />
+        <div class="centered">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/z9fw87JfOsc?si=0POy-5kWFdZFum9F"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>
+                <span class="inlinestyle">Feel free to check out this short film I made about cooking pasta!</span>
+            </p>
+        </div>
+        <div class="centered">
+            <video src="./media/CookingVideo.mp4" poster="./images/CookingVideo.jpeg" width="768" height="576" preload controls>
+                <p>Sorry, your browser does not support the video tag.</p>
+              </video>
+              <p>
+                <span class="inlinestyle">Here is the video in a different format incase the YouTube link is not working!</span>
+              </p>
+        </div>
+        <br />
+    </body>
+</html>
