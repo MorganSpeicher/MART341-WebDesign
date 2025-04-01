@@ -13,6 +13,6 @@ Use at least 1 class selector - Done! (Created a font family selector and added/
 Use at least 1 ID selector - Done! (Created an ID selector for center aligning text)
 4. Select at Least Three Additional Techniques:
 
-Opacity - to help distinguish blocks of content from the instructional blocks.
-Text Alignment - to make aligning text much easier as one class element in CSS.
-Borders - Added borders to images in instructions section to help them stand out from the background.
+Opacity - to help distinguish blocks of content from the instructional blocks via an adjustment in a class element.
+Text Alignment - to make aligning text much easier as one class element in CSS via an ID element.
+Borders - Added borders to images in instructions section to help them stand out from the background via an adjustment in a class element.
