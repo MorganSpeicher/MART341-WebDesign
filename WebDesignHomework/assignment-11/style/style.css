@@ -31,11 +31,12 @@ a:visited {
 
 @font-face {
     font-family: 'DuckCome';
-    src: url('fonts/DuckCome.ttf') format('truetype');
+    src: url('../fonts/DuckCome.ttf') format('truetype');
   }
 
   .font_alter {
     font-family: 'DuckCome', sans-serif;
+    font-size: 1.5em;
   }
   
 
