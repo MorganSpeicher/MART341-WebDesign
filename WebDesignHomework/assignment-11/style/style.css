@@ -19,6 +19,15 @@ h1, h2, h3 {
 p {
     color: lightslategrey;
 }
+p::first-letter {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+a:visited {
+    color: #8b8b8b;
+    text-decoration: none;
+ }
 
 @font-face {
     font-family: 'DuckCome';
