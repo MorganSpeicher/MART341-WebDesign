@@ -7,17 +7,12 @@ p {
 .color {
     background-color:#f4e6e6;
 }
-.spacing {
-    margin-left: 10em;
-    margin-right: 10em;
-    margin-top: 2em;
-    padding: 2em;
-}
+.spacing,
 .spacingalt {
-    margin-left: 20em;
-    margin-right: 20em;
-    margin-top: 2em;
-    padding: 1em;
+    margin: 2em auto;
+    max-width: 800px;
+    width: 90%;
+    padding: 30px;
 }
 .minwidth {
     min-width: 30%;
@@ -34,7 +29,6 @@ p {
 .dropdown {
     position: relative;
 }
-
 .dropdown-content {
     display: none; /* Initially hidden */
     position: absolute;
@@ -46,25 +40,20 @@ p {
     min-width: 7em;
     text-align: left;
 }
-
 .dropdown-content a {
     color: #000000;
     padding: 0.5em;
     display: block;
     text-decoration: none;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 .dropdown-item:hover,
 .dropdown-item:hover a {
     color: #000000;
     background-color: #fff6f6;
 }
-
-
 
 
 /* Link Styling */
@@ -73,7 +62,6 @@ p {
     text-align: center;
     background-color: #ffffff;
 }
-
 .menu-item a {
     color: #000000;
     text-decoration: none;
@@ -137,6 +125,7 @@ button{
     font-family: 'Bravecho', sans-serif;
     font-size: 3em;
 }
+
 
 /* Alt Title Font Styling */
 @font-face {
